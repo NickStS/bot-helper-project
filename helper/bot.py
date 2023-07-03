@@ -1,8 +1,8 @@
 from re import search
 from pathlib import Path
-from helper.classes import AddressBook, Record, Phone, Birthday, Name, Email
-from helper.classes import NoteBook, RECORD_HEADER, LINE, NOTE_HEADER
-from helper.clean import sort_files
+from classes import AddressBook, Record, Phone, Birthday, Name, Email
+from classes import NoteBook, RECORD_HEADER, LINE, NOTE_HEADER
+from clean import sort_files
 
 TEXT_FORMAT = "%d %b %Y"
 SELECT_CONTACT = "Press Enter or type a row number to select a contact: "
